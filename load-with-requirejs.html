@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Load Sinon with AMD (RequireJS)</title>
+        <meta charset="utf-8">
+        <script src="node_modules/requirejs/require.js"></script>
+        <script>
+            require(['node_modules/sinon/pkg/sinon'], function(){
+                console.log('sinon: ', sinon);
+            });
+        </script>
+    </head>
+    <body>
+        <p>Check the browser console for errors</p>
+    </body>
+</html>
